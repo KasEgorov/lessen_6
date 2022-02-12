@@ -1,0 +1,297 @@
+/* &display=swap */
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	
+}
+
+
+/* ================================================================ */
+
+
+
+body{
+
+	font-family: "Roboto", sans-serif;
+	background-color: rgb(228, 228, 228);
+}
+
+h1{
+	font-weight: 900;
+	margin-left: auto;
+    margin-right: auto;
+    
+	max-width: 600px;
+	font-size: 40px;
+	color: rgb(29, 23, 23);
+}
+
+h2{
+	font-weight: 700;
+	margin-left: auto;
+    margin-right: auto;
+	max-width: 600px;
+	font-size: 30px;
+	color: rgb(29, 23, 23);
+	margin-bottom: 50px;
+	text-transform: uppercase;
+    
+}
+
+
+.block_border{
+	background-color: rgb(118, 98, 173);
+
+	border-top: 15px solid rgb(230, 226, 34);
+	padding: 15px;
+	margin-bottom: 30px;
+	
+}
+
+.block_right{
+	
+	border-right: 15px solid rgb(230, 226, 34);
+	background-color: rgb(118, 98, 173);
+	padding: 15px;
+
+	margin: 30px 200px 30px 200px;
+}
+
+.block_left{
+	background-color: rgb(118, 98, 173);
+	padding: 15px;
+	border-left: 15px solid rgb(230, 226, 34);
+	
+
+	margin: 0px 200px 30px 200px;
+}
+
+.block-bottom{
+	background-color: rgb(118, 98, 173);
+	padding: 15px;
+	border-bottom: 15px solid rgb(230, 226, 34);
+	margin-bottom: 30px;
+}
+
+
+.dashed_top {
+	background-color: rgb(118, 98, 173);
+
+	border-top: 15px dashed rgb(230, 226, 34);
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.dashed_right {
+	background-color: rgb(118, 98, 173);
+
+	border-right: 15px dashed rgb(230, 226, 34);
+	padding: 15px;
+	margin: 0px 200px 30px 200px;
+}
+.dashed_left {
+	background-color: rgb(118, 98, 173);
+
+	border-left: 15px dashed rgb(230, 226, 34);
+	padding: 15px;
+	background-color: rgb(118, 98, 173);
+	margin: 0px 200px 30px 200px;
+
+
+	
+}
+.dashed_bottom {
+	background-color: rgb(118, 98, 173);
+
+	border-bottom: 15px dashed rgb(230, 226, 34);
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+
+
+.double_top {
+	background-color: rgb(118, 98, 173);
+
+	border-top: 15px double rgb(230, 226, 34);
+	padding: 15px;
+	margin-bottom: 30px;
+
+}
+.double-left {
+	background-color: rgb(118, 98, 173);
+
+	border-left: 15px double rgb(230, 226, 34);
+	padding: 15px;
+	margin: 0px 200px 30px 200px;
+
+}
+.double-right {
+	background-color: rgb(118, 98, 173);
+
+	border-right: 15px double rgb(230, 226, 34);
+	padding: 15px;
+	margin: 0px 200px 30px 200px;
+}
+.double_bottom {
+	background-color: rgb(118, 98, 173);
+
+	border-bottom: 15px double rgb(230, 226, 34);
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+
+.border-radius_top{
+	border-radius: 15% 0 0 0;
+	max-width: 400px;
+	min-height: 200px;
+	background-color: rgb(127, 221, 83);
+	padding: 15px;
+	margin: 100px;
+}
+
+.fancy-border-radius{
+	border-radius: 68% 32% 25% 75% / 30% 44% 56% 70%;
+	background-color: rgb(241, 46, 225);
+	min-height: 200px;
+	max-width: 400px;
+
+}
+
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgb(127, 221, 83);;
+	margin: 50px 0px 50px 150px;
+	border: 1px solid black;
+}
+
+.poster{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+
+.outline{
+	outline: 1px solid red;
+	margin: 50px;
+}
+.inline {
+	margin: 50px;
+	outline: 1px solid red;
+	
+}
+
+.inline-block {
+	max-width: 200px;
+	
+}
+
+.chadow{
+	box-shadow: 10px 10px 10px 10px rgb(43, 42, 42);
+	margin: 40px 80px;
+}
+
+.chadow_2{
+	margin: 50px;
+	box-shadow: 0px 0px 10px 10px rgb(253, 64, 6);
+	color: white;
+	background-color: black;
+}
+
+.chadow_3{
+	margin: 50px;
+	box-shadow: 0px 0px 10px 10px rgb(89, 56, 133), 0px 0px 10px 10px red;
+	color: white;
+	background-color: black;
+}
+
+.chadow_4{
+	margin: 50px;
+	box-shadow: inset 0px 0px 10px 10px rgb(89, 56, 133);
+	color: black;
+	background-color: white;
+}
+
+.button{
+	height: 50px;
+	padding: 15px;
+	padding-left: 30px;
+	width: 150px;
+	border-radius: 10px;
+	background-color: rgb(164, 109, 228);
+	box-shadow: inset 0px 0px 8px 10px rgb(89, 56, 133);
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+margin-bottom: 50px;
+
+}
+
+
+
+.opasity_1 {
+	margin: 10px 50px;
+	opacity: 0.1;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_2 {
+	margin: 10px 50px;
+	opacity: 0.2;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_3 {
+	margin: 10px 50px;
+	opacity: 0.3;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_4 {
+	margin: 10px 50px;
+	opacity: 0.4;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_5 {
+	margin: 10px 50px;
+	opacity: 0.5;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_6 {
+	margin: 10px 50px;
+	opacity: 0.6;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_7 {
+	margin: 10px 50px;
+	opacity: 0.7;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_8 {
+	margin: 10px 50px;
+	opacity: 0.8;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_9 {
+	margin: 10px 50px;
+	opacity: 0.9;
+	background-color: blueviolet;
+	color: white;
+}
+.opasity_10 {
+	margin: 10px 50px;
+	opacity: 1;
+	background-color: blueviolet;
+	color: white;
+}
